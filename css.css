@@ -1,0 +1,67 @@
+html
+{
+    font-family: Helvetica;
+}
+.button
+{
+    border-width: 1.5px;
+    border-color: black;
+    color: black;
+    background-color: lightgray;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 350ms;
+    font-family: Helvetica;
+}
+.button:hover
+{
+    border-width: 1.5px;
+    border-color: black;
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+.img-large
+{
+    display: inline-block;
+    block-size: 250px;
+}
+.ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(155, 155, 155);
+}
+  
+.li
+{
+    float: left;
+}
+.nav
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 350ms;
+}
+  
+.nav:hover
+{
+    background-color: rgb(202, 202, 202);
+}
